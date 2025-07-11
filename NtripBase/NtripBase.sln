@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NtripBase", "NtripBase\NtripBase.vcxproj", "{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM.Build.0 = Debug|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM64.Build.0 = Debug|ARM64
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM.ActiveCfg = Release|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM.Build.0 = Release|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM.Deploy.0 = Release|ARM
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM64.ActiveCfg = Release|ARM64
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM64.Build.0 = Release|ARM64
+		{27A8D20F-E157-1F4F-33B3-EDFBB1B92A8E}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14E8D609-20B6-482F-9EA8-E3A1BBD359D2}
+	EndGlobalSection
+EndGlobal
