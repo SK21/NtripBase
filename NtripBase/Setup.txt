@@ -1,0 +1,64 @@
+Using Ublox U-Center:
+
+1. View> Messages View
+	UBX, CFG, CFG
+	Press "Send" to save any changes to receiver memory.
+	Final step must be done after all changes have been made or after loading config files. 
+
+2. Use file "NtripBaseConfigNoLocation.txt"
+	- Tools/Receiver Configuration/File->GNSS
+	
+3. Location
+	- use survey-in
+	- or to set fixed location:
+	View> Messages View
+	UBX, CFG, TMODE3
+	Select fixed mode and enter Fixed Position.
+	Press "Send".
+	Save as in step 1.
+
+
+The remaining settings are already entered in "NtripBaseConfigNoLocation.txt".
+
+
+4. Rates
+	UBX, CFG, Rate
+	For each time source in the drop-down box, set measurement period to 1000, set Navigation rate to 1 cyc. This will set the base message rate to 1 per second, which is what you want for the RTCMv3 messages coming from the base station. click “send”
+
+5. to change which messages are sent
+	View> Messages View
+	UBX, CFG, MSG
+	Click on drop down box and select message, set where the message should go and press "Send" at bottom of page after each message selection.
+	Also save as in step 1 when done.
+	The last column is how often the message is sent in seconds.
+
+6. Messages to use:
+	- send to Uart1 and USB
+	- MSM7 is about 1.75 X the data of MSM4
+	low bandwidth and precision (MSM4)	higher bandwidth and precision (MSM7)	time
+	1005					1005					5
+	1074					1077					1
+	1084					1087					1
+	1094					1097					1
+	1124					1127					1
+	1230					1230					5
+
+7. set ports
+	View> Messages View
+	UBX, CFG, PRT
+	Set Uart1 to protocol out RTCM3, BaudRate 460800
+	press "Send"
+	Save as in step 1.
+
+8. High precison mode
+	- increases precision from 5 to 7 decimals
+	
+	UBX, CFG, NMEA, in 'Mode Flags' check High precision mode
+	Save as in step 1.
+
+
+	
+
+	
+
+				
